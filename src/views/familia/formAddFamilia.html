@@ -1,0 +1,32 @@
+{% extends "index.html" %} {% block title %} - Formulario de cadastro de familia
+{% endblock %} {% block content %}
+<form action="">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4>Adicionar uma nova familia</h4>
+    </div>
+    <div class="panel-body">
+        <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" class="form-control">
+        </div>
+
+
+        <div class="form-group">
+            <label for="Classificacao">Classificação</label>
+            <input type="text" name="Classificacao" class="form-control">
+        </div>
+
+
+        <div class="form-group">
+            <label for="Datasheet">Datasheet</label>
+            <input type="text" name="Datasheet" class="form-control">
+        </div>
+
+    </div>
+    <div class="panel-footer">
+        <button type="submit" class="btn btn-success">CADASTRAR</button>
+    </div>
+  </div>
+</form>
+{% endblock %}

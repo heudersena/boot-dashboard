@@ -1,0 +1,42 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add knexjs express mysql body-parser nunjucks
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Rodrigues\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python38\Scripts;C:\Python38;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\nodejs;C:\ProgramData\chocolatey\bin;C:\Program Files\Java\jdk1.8.0_201\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Yarn\bin;C:\Users\Rodrigues\AppData\Local\Microsoft\WindowsApps;C:\Users\Rodrigues\AppData\Roaming\npm;C:\Users\Rodrigues\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Rodrigues\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.18.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/knexjs: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66096:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140748:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141720:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141642:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1220:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "boot-dashboard",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "git@github.com:heudersena/boot-dashboard.git",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
