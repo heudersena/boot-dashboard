@@ -3,7 +3,7 @@
 
 🦴 Ferramentas
 
-- knexjs
+- knex
 - mysql
 - express
 - body-parser
@@ -13,5 +13,5 @@
 
 ### Instalação das ferramentas
 ```js
-    yarn add knexjs express mysql body-parser nunjucks
+    yarn add knex express mysql body-parser nunjucks
 ```
